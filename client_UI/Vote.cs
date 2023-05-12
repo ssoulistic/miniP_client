@@ -67,6 +67,7 @@ namespace client_UI
             {
                 vt.Elapsed -= talkTimer_Tick;
                 vt.Stop();
+                Console.WriteLine("test");
                 //시간 초가 다 되면 서버로 정보를 보내면서 폼 닫기
                 
             }
